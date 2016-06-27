@@ -1,0 +1,30 @@
+{
+  "name": "parser-base",
+  "version": "1.0.0",
+  "description": "Base for string parser",
+  "main": "lib/parser-base.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/parser-base.git"
+  },
+  "keywords": [
+    "parser",
+    "base",
+    "string",
+    "text",
+    "token",
+    "space"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/parser-base/issues"
+  },
+  "homepage": "https://github.com/indutny/parser-base#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
